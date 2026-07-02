@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.embracingearth-space/ai2fin-tax-mcp",
+  "title": "AI2Fin (2Fin) Tax MCP",
+  "description": "Free, no-auth tax tools over MCP: look up GST/VAT, income and company tax rates for 50+ countries; add or remove GST/VAT on an amount; compare countries; and estimate income tax (Australia, New Zealand), company tax (AU, US, UK, Canada, India) and Australian capital gains tax. Every answer cites its source authority. Public rate data only — nothing stored.",
+  "version": "0.2.0",
+  "repository": {
+    "url": "https://github.com/embracingearth-space/ai2fin-tax-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://taxmcp.ai2fin.com"
+    }
+  ]
+}

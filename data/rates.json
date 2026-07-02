@@ -1,0 +1,611 @@
+[
+  {
+    "code": "AU",
+    "country": "Australia",
+    "family": "GST",
+    "localName": "GST",
+    "standardRate": 0.1,
+    "rateDisplay": "10%",
+    "reducedRates": [],
+    "incomeTopRate": "45% + 2% Medicare",
+    "companyRate": "30% (25% small)"
+  },
+  {
+    "code": "NZ",
+    "country": "New Zealand",
+    "family": "GST",
+    "localName": "GST",
+    "standardRate": 0.15,
+    "rateDisplay": "15%",
+    "reducedRates": [],
+    "incomeTopRate": "39%",
+    "companyRate": "28%"
+  },
+  {
+    "code": "CN",
+    "country": "China",
+    "family": "VAT",
+    "localName": "VAT (增值税)",
+    "standardRate": 0.13,
+    "rateDisplay": "13%",
+    "reducedRates": [
+      0.09
+    ],
+    "incomeTopRate": "45%",
+    "companyRate": "25%"
+  },
+  {
+    "code": "HK",
+    "country": "Hong Kong",
+    "family": "None",
+    "localName": "Sales Tax",
+    "standardRate": 0,
+    "rateDisplay": "None",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "IN",
+    "country": "India",
+    "family": "GST",
+    "localName": "GST",
+    "standardRate": 0.18,
+    "rateDisplay": "18% (slabs 0/5/12/18/28%)",
+    "reducedRates": [
+      0.05,
+      0.12
+    ],
+    "incomeTopRate": "30% + surcharge/cess",
+    "companyRate": "25–30%"
+  },
+  {
+    "code": "ID",
+    "country": "Indonesia",
+    "family": "VAT",
+    "localName": "PPN",
+    "standardRate": 0.12,
+    "rateDisplay": "12%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "JP",
+    "country": "Japan",
+    "family": "Consumption Tax",
+    "localName": "Consumption Tax (消費税)",
+    "standardRate": 0.1,
+    "rateDisplay": "10%",
+    "reducedRates": [
+      0.08
+    ],
+    "incomeTopRate": "45% national",
+    "companyRate": "~23% (≈30% effective)"
+  },
+  {
+    "code": "MY",
+    "country": "Malaysia",
+    "family": "SST",
+    "localName": "SST",
+    "standardRate": 0.08,
+    "rateDisplay": "8%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "PH",
+    "country": "Philippines",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.12,
+    "rateDisplay": "12%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "SG",
+    "country": "Singapore",
+    "family": "GST",
+    "localName": "GST",
+    "standardRate": 0.09,
+    "rateDisplay": "9%",
+    "reducedRates": [],
+    "incomeTopRate": "24%",
+    "companyRate": "17%"
+  },
+  {
+    "code": "KR",
+    "country": "South Korea",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.1,
+    "rateDisplay": "10%",
+    "reducedRates": [],
+    "incomeTopRate": "45%",
+    "companyRate": "24%"
+  },
+  {
+    "code": "TW",
+    "country": "Taiwan",
+    "family": "VAT",
+    "localName": "Sales Tax",
+    "standardRate": 0.05,
+    "rateDisplay": "5%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "TH",
+    "country": "Thailand",
+    "family": "VAT",
+    "localName": "VAT (ภาษีมูลค่าเพิ่ม)",
+    "standardRate": 0.07,
+    "rateDisplay": "7%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "VN",
+    "country": "Vietnam",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.1,
+    "rateDisplay": "10%",
+    "reducedRates": [
+      0.05
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "BH",
+    "country": "Bahrain",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.1,
+    "rateDisplay": "10%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "OM",
+    "country": "Oman",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.05,
+    "rateDisplay": "5%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "SA",
+    "country": "Saudi Arabia",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.15,
+    "rateDisplay": "15%",
+    "reducedRates": [],
+    "incomeTopRate": "No personal income tax",
+    "companyRate": "20%"
+  },
+  {
+    "code": "AE",
+    "country": "UAE",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.05,
+    "rateDisplay": "5%",
+    "reducedRates": [],
+    "incomeTopRate": "No personal income tax",
+    "companyRate": "9%"
+  },
+  {
+    "code": "AT",
+    "country": "Austria",
+    "family": "VAT",
+    "localName": "USt",
+    "standardRate": 0.2,
+    "rateDisplay": "20%",
+    "reducedRates": [
+      0.1
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "BE",
+    "country": "Belgium",
+    "family": "VAT",
+    "localName": "TVA/BTW",
+    "standardRate": 0.21,
+    "rateDisplay": "21%",
+    "reducedRates": [
+      0.06
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "BG",
+    "country": "Bulgaria",
+    "family": "VAT",
+    "localName": "ДДС (DDS)",
+    "standardRate": 0.2,
+    "rateDisplay": "20%",
+    "reducedRates": [
+      0.09
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "HR",
+    "country": "Croatia",
+    "family": "VAT",
+    "localName": "PDV",
+    "standardRate": 0.25,
+    "rateDisplay": "25%",
+    "reducedRates": [
+      0.13
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "CZ",
+    "country": "Czech Republic",
+    "family": "VAT",
+    "localName": "DPH",
+    "standardRate": 0.21,
+    "rateDisplay": "21%",
+    "reducedRates": [
+      0.12
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "DK",
+    "country": "Denmark",
+    "family": "VAT",
+    "localName": "Moms",
+    "standardRate": 0.25,
+    "rateDisplay": "25%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "FI",
+    "country": "Finland",
+    "family": "VAT",
+    "localName": "ALV (Arvonlisävero)",
+    "standardRate": 0.255,
+    "rateDisplay": "25.5%",
+    "reducedRates": [
+      0.14
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "FR",
+    "country": "France",
+    "family": "VAT",
+    "localName": "TVA",
+    "standardRate": 0.2,
+    "rateDisplay": "20%",
+    "reducedRates": [
+      0.1,
+      0.055,
+      0.021
+    ],
+    "incomeTopRate": "45%",
+    "companyRate": "25%"
+  },
+  {
+    "code": "DE",
+    "country": "Germany",
+    "family": "VAT",
+    "localName": "Umsatzsteuer (USt)",
+    "standardRate": 0.19,
+    "rateDisplay": "19%",
+    "reducedRates": [
+      0.07
+    ],
+    "incomeTopRate": "45% + solidarity",
+    "companyRate": "~30% (incl. trade tax)"
+  },
+  {
+    "code": "GR",
+    "country": "Greece",
+    "family": "VAT",
+    "localName": "ΦΠΑ (FPA)",
+    "standardRate": 0.24,
+    "rateDisplay": "24%",
+    "reducedRates": [
+      0.13
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "HU",
+    "country": "Hungary",
+    "family": "VAT",
+    "localName": "ÁFA",
+    "standardRate": 0.27,
+    "rateDisplay": "27%",
+    "reducedRates": [
+      0.05
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "IE",
+    "country": "Ireland",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.23,
+    "rateDisplay": "23%",
+    "reducedRates": [
+      0.135,
+      0.09
+    ],
+    "incomeTopRate": "40% + USC/PRSI",
+    "companyRate": "12.5%"
+  },
+  {
+    "code": "IT",
+    "country": "Italy",
+    "family": "VAT",
+    "localName": "IVA",
+    "standardRate": 0.22,
+    "rateDisplay": "22%",
+    "reducedRates": [
+      0.1,
+      0.05,
+      0.04
+    ],
+    "incomeTopRate": "43%",
+    "companyRate": "24%"
+  },
+  {
+    "code": "NL",
+    "country": "Netherlands",
+    "family": "VAT",
+    "localName": "BTW",
+    "standardRate": 0.21,
+    "rateDisplay": "21%",
+    "reducedRates": [
+      0.09
+    ],
+    "incomeTopRate": "49.5%",
+    "companyRate": "25.8%"
+  },
+  {
+    "code": "NO",
+    "country": "Norway",
+    "family": "VAT",
+    "localName": "MVA (Merverdiavgift)",
+    "standardRate": 0.25,
+    "rateDisplay": "25%",
+    "reducedRates": [
+      0.15
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "PL",
+    "country": "Poland",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.23,
+    "rateDisplay": "23%",
+    "reducedRates": [
+      0.08
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "PT",
+    "country": "Portugal",
+    "family": "VAT",
+    "localName": "IVA",
+    "standardRate": 0.23,
+    "rateDisplay": "23%",
+    "reducedRates": [
+      0.06
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "RO",
+    "country": "Romania",
+    "family": "VAT",
+    "localName": "TVA",
+    "standardRate": 0.21,
+    "rateDisplay": "21%",
+    "reducedRates": [
+      0.11
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "ES",
+    "country": "Spain",
+    "family": "VAT",
+    "localName": "IVA",
+    "standardRate": 0.21,
+    "rateDisplay": "21%",
+    "reducedRates": [
+      0.1,
+      0.04
+    ],
+    "incomeTopRate": "47%",
+    "companyRate": "25%"
+  },
+  {
+    "code": "SE",
+    "country": "Sweden",
+    "family": "VAT",
+    "localName": "Moms",
+    "standardRate": 0.25,
+    "rateDisplay": "25%",
+    "reducedRates": [
+      0.12
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "CH",
+    "country": "Switzerland",
+    "family": "VAT",
+    "localName": "MWST/TVA/IVA",
+    "standardRate": 0.081,
+    "rateDisplay": "8.1%",
+    "reducedRates": [
+      0.026
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "TR",
+    "country": "Turkey",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.2,
+    "rateDisplay": "20%",
+    "reducedRates": [
+      0.1
+    ],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "GB",
+    "country": "United Kingdom",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.2,
+    "rateDisplay": "20%",
+    "reducedRates": [
+      0.05
+    ],
+    "incomeTopRate": "45%",
+    "companyRate": "25%"
+  },
+  {
+    "code": "EG",
+    "country": "Egypt",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.14,
+    "rateDisplay": "14%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "GH",
+    "country": "Ghana",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.2,
+    "rateDisplay": "20%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "KE",
+    "country": "Kenya",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.16,
+    "rateDisplay": "16%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "MG",
+    "country": "Madagascar",
+    "family": "VAT",
+    "localName": "TVA",
+    "standardRate": 0.2,
+    "rateDisplay": "20%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "NG",
+    "country": "Nigeria",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.075,
+    "rateDisplay": "7.5%",
+    "reducedRates": [],
+    "incomeTopRate": "—",
+    "companyRate": "—"
+  },
+  {
+    "code": "ZA",
+    "country": "South Africa",
+    "family": "VAT",
+    "localName": "VAT",
+    "standardRate": 0.15,
+    "rateDisplay": "15%",
+    "reducedRates": [],
+    "incomeTopRate": "45%",
+    "companyRate": "27%"
+  },
+  {
+    "code": "BR",
+    "country": "Brazil",
+    "family": "Hybrid",
+    "localName": "PIS/COFINS",
+    "standardRate": 0.17,
+    "rateDisplay": "17%",
+    "reducedRates": [],
+    "incomeTopRate": "27.5%",
+    "companyRate": "34% (incl. CSLL)"
+  },
+  {
+    "code": "CA",
+    "country": "Canada",
+    "family": "GST",
+    "localName": "GST/HST",
+    "standardRate": 0.05,
+    "rateDisplay": "5%",
+    "reducedRates": [],
+    "incomeTopRate": "33% federal + provincial",
+    "companyRate": "15% federal"
+  },
+  {
+    "code": "US",
+    "country": "United States",
+    "family": "Sales Tax",
+    "localName": "Sales Tax",
+    "standardRate": 0,
+    "rateDisplay": "No national rate (state 0–~10%)",
+    "reducedRates": [],
+    "incomeTopRate": "37% federal",
+    "companyRate": "21% federal"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "ai2fin-tax-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI2Fin public Tax MCP — stateless Cloudflare Worker exposing GST/VAT + tax-rate tools over the Model Context Protocol.",
+  "comment": "No dependencies: the Worker is a single self-contained file (wrangler bundles src/index.ts directly), so the Cloudflare build's `npm ci` installs nothing and the dev tools are pulled on demand via npx. This keeps a lockfile trivially valid without vendoring wrangler's tree.",
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy",
+    "bundle": "npx -p typescript node scripts/bundle-worker.mjs",
+    "typecheck": "npx -p typescript -p @cloudflare/workers-types tsc --noEmit"
+  }
+}

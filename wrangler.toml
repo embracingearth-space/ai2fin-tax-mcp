@@ -1,0 +1,17 @@
+# 2Fin public Tax MCP — Cloudflare Worker. embracingearth.space
+# Deploy: cd tax-mcp && npm install && npm run deploy
+# Then map a route (e.g. taxmcp.ai2fin.com) in the Cloudflare dashboard.
+#
+# NOTE: the Cloudflare build's "Root directory" must point at this folder, which
+# is `tax-mcp` (hyphenated) — a value of `/taxmcp` fails with "root directory not
+# found". `name` below must match the Worker service the build is attached to
+# ("taxmcp"); `wrangler deploy` deploys to THIS name.
+name = "taxmcp"
+main = "src/index.ts"
+compatibility_date = "2025-06-01"
+
+[observability]
+enabled = true
+
+# Abuse protection is via the Cloudflare dashboard (rate limiting + WAF), not
+# auth — this endpoint is intentionally public and stateless.
