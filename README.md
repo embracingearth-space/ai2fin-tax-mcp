@@ -11,8 +11,11 @@ The [Model Context Protocol](https://modelcontextprotocol.io) server behind the 
 | `tax_rate_lookup` | A country's GST/VAT, income and company tax rates |
 | `compute_gst_vat` | Add or remove a country's GST/VAT on an amount |
 | `compare_countries` | Compare tax across countries — [ai2fin.com/tools/compare](https://ai2fin.com/tools/compare) as a callable |
+| `income_tax_estimate` | Income tax estimate over effective-dated brackets (AU, NZ) |
+| `company_tax_estimate` | Company tax estimate with small-business thresholds (AU, US, GB, IN, CA) |
+| `cgt_estimate` | Capital-gains tax estimate — losses, discount, marginal stacking (AU resident individuals) |
 
-`income_tax_estimate` is intentionally **not** exposed yet — it's the highest-liability tool and will ship once income-tax brackets are generated (not vendored). Every result carries a "general information, not tax advice" note.
+The estimate tools answer only for countries with verified data and degrade to "not available" elsewhere. Every result carries a "general information, not tax advice" note and cites its source authority.
 
 ## Data = single source
 
@@ -30,7 +33,6 @@ npm run bundle   # writes dist/worker.js — a single paste-ready file for the
 ```
 
 Full deploy steps (dashboard copy-paste **or** CLI): **[DEPLOY.md](DEPLOY.md)**.
-Listing it in the MCP directories: **[REGISTRY.md](REGISTRY.md)**.
 
 Abuse protection is via the Cloudflare dashboard (rate limiting + WAF) — not auth.
 

@@ -1,0 +1,5 @@
+# Files kept out of the public mirror (github.com/embracingearth-space/ai2fin-tax-mcp).
+# The mirror is produced with `git archive`, which honours export-ignore — so the
+# internal roadmap/gap notes and listing runbook never ship publicly.
+ARCHITECTURE.md export-ignore
+REGISTRY.md export-ignore
