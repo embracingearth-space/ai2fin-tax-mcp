@@ -13,6 +13,11 @@ export const LANDING_HTML = `<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Tax MCP by AI2Fin - the tax brain your agent calls</title>
 <meta name="description" content="A free, public tax brain your assistant or agent connects to. Every answer is source-cited to the national tax authority with a verified date. GST/VAT, income, company and capital-gains for ~50 countries. No login, no key.">
+<link rel="canonical" href="https://taxmcp.ai2fin.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://taxmcp.ai2fin.com/">
+<meta property="og:title" content="The Tax MCP by AI2Fin - the tax brain your agent calls">
+<meta property="og:description" content="Free, source-cited tax tools over MCP: GST/VAT, income, company and capital-gains for ~50 countries. No login, no key.">
 <style>
   :root{
     --bg1:#020c15; --bg2:#041a2e; --bg3:#010810;
